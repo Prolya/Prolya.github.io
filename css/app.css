@@ -1,3 +1,18 @@
-body {
-    background-color: rgb(197, 30, 30);
+.container {
+    display: flex;
+}
+
+.blocks {
+    height: 50vh;
+    width: 50%;
+    word-break: break-all;
+    margin: 5px;
+}
+
+.block1 {
+    background-color: rgb(201, 5, 5);
+}
+
+.block2 {
+    background-color: rgb(4, 219, 51);
 }
