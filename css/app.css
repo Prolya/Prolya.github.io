@@ -7,12 +7,21 @@
     width: 50%;
     word-break: break-all;
     margin: 5px;
+    padding: 20px;
 }
 
 .block1 {
-    background-color: rgb(201, 5, 5);
+    background-color: rgb(201, 5, 5); 
+
 }
 
 .block2 {
     background-color: rgb(4, 219, 51);
+
+}
+
+article {
+    -webkit-column-count:2;  
+    column-count:2;   
+    column-width: auto;
 }
